@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        GeometryReader { geometry in
+            
+            TabView {
+                
+                Group {
+                    HomeView(size: geometry.size).tabItem{ Label("", systemImage: "house.fill")
+                    }
+                    
+                    HomeView(size: geometry.size).tabItem{ Label("", systemImage: "plus.circle.fill")
+                    }
+                    
+                    
+                    HomeView(size: geometry.size).tabItem{ Label("", systemImage: "suitcase.fill")
+                    }
+                }
+                .toolbarBackground(.visible, for: .tabBar)
+                
+            }
+            .shadow(radius: 10)
+            .foregroundColor(Color("TextIcons"))
+            .accentColor(Color("TextIcons"))
+            
+        
+        
         }
-        .padding()
+        
     }
 }
 

@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2B94C6A02ADF7C56002931A5 /* FigmaCopyTehyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C69F2ADF7C56002931A5 /* FigmaCopyTehyaApp.swift */; };
-		2B94C6A22ADF7C56002931A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C6A12ADF7C56002931A5 /* ContentView.swift */; };
+		2B94C6A22ADF7C56002931A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C6A12ADF7C56002931A5 /* HomeView.swift */; };
 		2B94C6A42ADF7C56002931A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B94C6A32ADF7C56002931A5 /* Assets.xcassets */; };
 		2B94C6A72ADF7C56002931A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B94C6A62ADF7C56002931A5 /* Preview Assets.xcassets */; };
+		2B94C6AE2ADF7C84002931A5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C6AD2ADF7C84002931A5 /* CardView.swift */; };
+		2B94C6B02ADF7D97002931A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C6AF2ADF7D97002931A5 /* ContentView.swift */; };
+		2B94C6B22ADF82D8002931A5 /* ToolBarVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94C6B12ADF82D8002931A5 /* ToolBarVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B94C69C2ADF7C56002931A5 /* FigmaCopyTehya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaCopyTehya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94C69F2ADF7C56002931A5 /* FigmaCopyTehyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaCopyTehyaApp.swift; sourceTree = "<group>"; };
-		2B94C6A12ADF7C56002931A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B94C6A12ADF7C56002931A5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2B94C6A32ADF7C56002931A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B94C6A62ADF7C56002931A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B94C6AD2ADF7C84002931A5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2B94C6AF2ADF7D97002931A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B94C6B12ADF82D8002931A5 /* ToolBarVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				2B94C69F2ADF7C56002931A5 /* FigmaCopyTehyaApp.swift */,
-				2B94C6A12ADF7C56002931A5 /* ContentView.swift */,
+				2B94C6A12ADF7C56002931A5 /* HomeView.swift */,
+				2B94C6AD2ADF7C84002931A5 /* CardView.swift */,
+				2B94C6AF2ADF7D97002931A5 /* ContentView.swift */,
+				2B94C6B12ADF82D8002931A5 /* ToolBarVIew.swift */,
 				2B94C6A32ADF7C56002931A5 /* Assets.xcassets */,
 				2B94C6A52ADF7C56002931A5 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B94C6A22ADF7C56002931A5 /* ContentView.swift in Sources */,
+				2B94C6A22ADF7C56002931A5 /* HomeView.swift in Sources */,
+				2B94C6AE2ADF7C84002931A5 /* CardView.swift in Sources */,
+				2B94C6B22ADF82D8002931A5 /* ToolBarVIew.swift in Sources */,
+				2B94C6B02ADF7D97002931A5 /* ContentView.swift in Sources */,
 				2B94C6A02ADF7C56002931A5 /* FigmaCopyTehyaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
