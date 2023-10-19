@@ -43,7 +43,7 @@ struct ToolBarView: ToolbarContent {
                             
                             Text("Stay local")
                                 .fontWeight(.bold)
-                                .padding(EdgeInsets(top: 5, leading: 15, bottom: 5, trailing: 5))
+                                .padding(EdgeInsets(top: 5, leading: 18, bottom: 5, trailing: 12))
                             Spacer()
                             
                             Text("Go Global")

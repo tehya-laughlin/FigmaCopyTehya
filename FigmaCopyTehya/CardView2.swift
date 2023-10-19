@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CardView2: View {
     var size: CGSize
-    @State private var isFavorited = UserDefaults.standard.bool(forKey: "favorite")
+    @State private var isFavorited2 = UserDefaults.standard.bool(forKey: "favorite2")
     
     @State var isExpanded: Bool = false
     
@@ -58,10 +58,10 @@ struct CardView2: View {
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             Spacer()
                             Button {
-                                isFavorited.toggle()
-                                UserDefaults.standard.set(self.isFavorited, forKey: "favorite")
+                                isFavorited2.toggle()
+                                UserDefaults.standard.set(self.isFavorited2, forKey: "favorite2")
                             } label: {
-                                Label("Favorite", systemImage: isFavorited ? "heart" : "heart.fill")
+                                Label("Favorite", systemImage: isFavorited2 ? "heart" : "heart.fill")
                                     .scaleEffect(CGSize(width: 1.4, height: 1.4))
                                     .padding(.trailing, 5)
                                     .labelStyle(.iconOnly)
