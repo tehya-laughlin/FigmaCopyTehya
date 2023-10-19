@@ -1,13 +1,13 @@
 //
-//  CardView.swift
+//  CardView2.swift
 //  FigmaCopyTehya
 //
-//  Created by Tehya Laughlin on 10/17/23.
+//  Created by Tehya Laughlin on 10/18/23.
 //
 
 import SwiftUI
 
-struct CardView: View {
+struct CardView2: View {
     var size: CGSize
     @State private var isFavorited = UserDefaults.standard.bool(forKey: "favorite")
     
@@ -26,12 +26,12 @@ struct CardView: View {
                         .background(Color("Tag1"))
                         .cornerRadius(10)
                         .fontWeight(.semibold)
-                    Text("Experience")
+                    Text("Restaurant")
                         .padding(EdgeInsets(top: 5, leading: 9, bottom: 5, trailing: 9))
                         .background(Color("ToggleFGTag2"))
                         .cornerRadius(10)
                         .fontWeight(.semibold)
-                    Text("Class")
+                    Text("Italian")
                         .padding(EdgeInsets(top: 5, leading: 9, bottom: 5, trailing: 9))
                         .background(Color("ToggleFGTag2"))
                         .cornerRadius(10)
@@ -72,19 +72,19 @@ struct CardView: View {
                                 .padding(.trailing, 5)
                             Image(systemName: "bubble.left.and.bubble.right")
                                 .scaleEffect(CGSize(width: 1.4, height: 1.4))
-                            Text("2")
+                            Text("6")
                                 
                         }
                         .padding(.bottom, 4)
                         VStack(alignment: .leading){
-                            Text("12 October 2023")
+                            Text("19 June 2023")
                                 .font(.caption2)
                                 .padding(.bottom, 2)
                                 .frame(alignment: .leading)
-                            Text("La Cuisine Paris: Dessert Cooking Class")
+                            Text("Harmonia's")
                                 .fontWeight(.medium)
                                 .font(Font.system(size:16, design: .default))
-                            Text("Learn to make your own croissants!! The centrally located La Cuisine Paris cooking school has a range of culinary courses in English...")
+                            Text("Italian food is food of the soul. Harmonia's food is contempory, yet traditional, using older recipes but with the modern understanding of...")
                                 .font(.footnote)
                                 .lineSpacing(2.0)
                                 
@@ -111,17 +111,13 @@ struct CardView: View {
             
         }
         .background{
-            Image("croissant")
+            Image("pasta")
                 .resizable()
                 .scaledToFill()
         }
         .frame(width: size.width*9/10, height: 560)
         .cornerRadius(20)
         
-        
-
-        
     }
 }
-
 

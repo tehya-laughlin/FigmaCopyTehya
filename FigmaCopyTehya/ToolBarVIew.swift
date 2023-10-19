@@ -19,6 +19,7 @@ struct ToolBarView: ToolbarContent {
               
             ToolbarItem(placement: .navigationBarLeading){
                 Image(systemName: "loupe")
+                    .padding(.bottom, 20)
                     
             }
                 
@@ -41,10 +42,12 @@ struct ToolBarView: ToolbarContent {
                         HStack{
                             
                             Text("Stay local")
+                                .fontWeight(.bold)
                                 .padding(EdgeInsets(top: 5, leading: 15, bottom: 5, trailing: 5))
                             Spacer()
                             
                             Text("Go Global")
+                                .fontWeight(.bold)
                                 .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 15))
                                 
                         }
@@ -55,6 +58,7 @@ struct ToolBarView: ToolbarContent {
                     .background(Color("ToggleBG"))
                     .cornerRadius(25)
                 }
+                .padding(.bottom, 20)
                 
             }
                 
@@ -63,7 +67,9 @@ struct ToolBarView: ToolbarContent {
                 .resizable()
                 .clipShape(Circle())
                 .frame(width:40, height:50)
+                .padding(.bottom, 20)
             }
+        
 
         
     }

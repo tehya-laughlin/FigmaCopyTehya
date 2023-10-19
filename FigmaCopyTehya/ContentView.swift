@@ -27,7 +27,7 @@ struct ContentView: View {
                     HomeView(size: geometry.size).tabItem{ Label("", systemImage: "suitcase.fill")
                     }
                 }
-                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(Color.white, for: .tabBar)
                 
             }
             .shadow(radius: 10)
